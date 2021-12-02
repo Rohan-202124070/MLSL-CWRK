@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\rnire\AppData\Local\Temp\JetBrains\ReSharperPlatformVs16\vAny_7c1558e1\CoverageData\_PacMan-CSharp.329464552\Snapshot\snapshot.utdcvr</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=14e791f9_002Dba6a_002D43eb_002Da2da_002Dd30c779736d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BlueTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::27F88D66-EC77-42C7-AE27-670B4DB001E7::.NETFramework,Version=v4.5.2::Pacman.GameLogic.Ghosts.Tests.BlueTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=69a48f2a_002D337d_002D4652_002D8e32_002D385191d379be/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" Name="All tests from &amp;lt;PacmanGameLogicTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogicTests" Presentation="&amp;lt;PacmanGameLogicTests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8688099b_002Dcedd_002D4c37_002Db884_002Dad49fc179abc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;PacmanGameLogicTests&amp;gt; #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::27F88D66-EC77-42C7-AE27-670B4DB001E7::.NETFramework,Version=v4.5.2::Pacman.GameLogic.Ghosts.Tests.BlueTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2f95375_002Dcde9_002D449b_002Da04b_002Ded26be6760f8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;PacmanGameLogicTests&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogicTests" Presentation="&amp;lt;PacmanGameLogicTests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

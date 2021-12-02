@@ -21,3 +21,15 @@ C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.csproj.CopyComplete
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.exe
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\blue_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\green_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\red_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\Accord.dll.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\ConsoleSim.exe.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\ConsoleSim.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\ConsoleSim.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.csproj.AssemblyReference.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.csproj.CoreCompileInputs.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.csproj.CopyComplete
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\ConsoleSim\obj\Debug\ConsoleSim.pdb

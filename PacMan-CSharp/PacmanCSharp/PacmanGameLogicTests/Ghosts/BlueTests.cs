@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using Pacman.GameLogic.Ghosts;
 using System;
 using System.Collections.Generic;
@@ -69,8 +70,8 @@ namespace Pacman.GameLogic.Ghosts.Tests
         [TestMethod()]
         public void MoveFirstIfCaseTest()
         {
-            //var _Mock_Gamestate = new Mock<GameState>(MockBehavior.Loose) { };
-            // _Mock_Gamestate.Setup(x => x.Ra).Returns(10);
+            _pacman.SetPosition(10, 10);
+            gameState.Pacman = _pacman;
             _blue.Move();
             Assert.IsTrue(true);
         }
@@ -98,6 +99,17 @@ namespace Pacman.GameLogic.Ghosts.Tests
         }
 
         [TestMethod()]
+        public void MoveIfElseCaseTest() 
+        {
+            _red.SetPosition(12, 10);
+            gameState.Red = _red;
+            _pacman.SetPosition(90, 110);
+            gameState.Pacman = _pacman;
+            _blue.Move();
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod()]
         public void MovePackManUpTest() // if( IsAbove(GameState.Pacman) )
         {
             _red.SetPosition(10, 10);
@@ -110,11 +122,23 @@ namespace Pacman.GameLogic.Ghosts.Tests
         }
 
         [TestMethod()]
-        public void MovePackManRightTest() // (x <= entity.x) for right => IsRight(GameState.Pacman)
+        public void MovePackManRightTest() // true => (x <= entity.x) for right => IsRight(GameState.Pacman)
         {
             _red.SetPosition(10, 10);
             gameState.Red = _red;
             _pacman.SetPosition(190, 110); 
+            //_pacman.SetDirection(Direction.Right);
+            gameState.Pacman = _pacman;
+            _blue.Move();
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod()]
+        public void MovePackManRightFalseTest() // false =>(x <= entity.x) for right => IsRight(GameState.Pacman)
+        {
+            _red.SetPosition(10, 10);
+            gameState.Red = _red;
+            _pacman.SetPosition(94, 110);
             //_pacman.SetDirection(Direction.Right);
             gameState.Pacman = _pacman;
             _blue.Move();
@@ -157,6 +181,17 @@ namespace Pacman.GameLogic.Ghosts.Tests
             Assert.IsTrue(true);
         }
 
+        [TestMethod()]                                  // true => IsBelow(GameState.Pacman) // true => IsLeft(GameState.Pacman)
+        public void MoveMinimizeXSecondORCaseTrueTest() // false //Math.Abs(Node.X - GameState.Pacman.Node.X) != 0
+        {
+            _red.SetPosition(12, 10);
+            gameState.Red = _red;
+            _pacman.SetPosition(95, 120);
+            _pacman.SetDirection(Direction.Up);
+            gameState.Pacman = _pacman;
+            _blue.Move();
+            Assert.IsTrue(true);
+        }
 
         [TestMethod()]                        // false => IsBelow(GameState.Pacman)
         public void MoveMinimizeXFalseTest() // false //Math.Abs(Node.X - GameState.Pacman.Node.X) != 0
@@ -170,9 +205,26 @@ namespace Pacman.GameLogic.Ghosts.Tests
             Assert.IsTrue(true);
         }
 
+        [TestMethod()]                                  // true => IsBelow(GameState.Pacman) // true => IsLeft(GameState.Pacman)
+        public void MoveJustFindSomethingFirstElseIfTest() // false //Math.Abs(Node.X - GameState.Pacman.Node.X) != 0
+        {
+            var _Mock_Entity = new Mock<Entity>(MockBehavior.Loose) { };
+            //_Mock_Entity.Setup(x => x.Direction).Returns(Direction.Down);
+            _blue.SetRoadPosition(100, 100);
+            gameState.Blue = _blue;
+            _red.SetPosition(10, 10);
+            gameState.Red = _red;
+            _pacman.SetPosition(95, 120);
+            _pacman.SetDirection(Direction.Right);
+            gameState.Pacman = _pacman;
+            _blue.Move();
+            Assert.IsTrue(true);
+        }
+
         [TestMethod()]
         public void CloneTest()
         {
+            _blue.Clone();
             Assert.IsTrue(true);
         }
     }

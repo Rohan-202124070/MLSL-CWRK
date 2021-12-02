@@ -21,3 +21,15 @@ C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\o
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.csproj.CopyComplete
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.exe
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\blue_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\green_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\red_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\Accord.dll.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanServer.exe.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanServer.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanServer.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.csproj.AssemblyReference.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.csproj.CoreCompileInputs.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.csproj.CopyComplete
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanServer\obj\Debug\PacmanServer.pdb

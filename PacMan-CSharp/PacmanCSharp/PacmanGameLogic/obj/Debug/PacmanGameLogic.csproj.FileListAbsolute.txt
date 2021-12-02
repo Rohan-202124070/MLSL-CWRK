@@ -13,3 +13,11 @@ C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogi
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.csproj.CopyComplete
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.dll
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\blue_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanGameLogic.dll
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanGameLogic.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.csproj.AssemblyReference.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.csproj.CoreCompileInputs.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.csproj.CopyComplete
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.dll
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanGameLogic\obj\Debug\PacmanGameLogic.pdb

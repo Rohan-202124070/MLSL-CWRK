@@ -21,3 +21,15 @@ C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceB
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.csproj.CopyComplete
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.exe
 C:\Adavance Computer Science\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\blue_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\green_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\red_block.png
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\Accord.dll.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanBalanceBridge.exe.config
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanBalanceBridge.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\Binaries\PacmanBalanceBridge.pdb
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.csproj.AssemblyReference.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.csproj.CoreCompileInputs.cache
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.csproj.CopyComplete
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.exe
+C:\Adavance Computer Science\TestCases\MLSL-CWRK\PacMan-CSharp\PacmanCSharp\PacmanBalanceBridge\obj\Debug\PacmanBalanceBridge.pdb
