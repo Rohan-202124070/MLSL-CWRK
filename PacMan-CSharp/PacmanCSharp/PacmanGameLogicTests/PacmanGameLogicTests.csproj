@@ -70,7 +70,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Ghosts\BlueTests.cs" />
-    <Compile Include="Ghosts\BrownTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

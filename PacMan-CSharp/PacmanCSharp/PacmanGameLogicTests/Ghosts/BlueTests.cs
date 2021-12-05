@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using Pacman.GameLogic.Ghosts;
 using System;
 using System.Collections.Generic;
@@ -15,11 +14,9 @@ namespace Pacman.GameLogic.Ghosts.Tests
     {
         GameState gameState;
         Ghost ghosts;
-        Blue _blue; //
+        Blue _blue;
         Pacman _pacman;
         Red _red;
-
-        // Ghost[] Ghosts = new Ghost[4];
 
         [TestInitialize]
         public void Initialize_Blue()
@@ -28,20 +25,6 @@ namespace Pacman.GameLogic.Ghosts.Tests
             _blue = new Blue(90, 110, gameState, 1.8f, 1.5f);
             _pacman = new Pacman(Pacman.StartX, Pacman.StartY, gameState, 3.0f);
             _red = new Red(90, 110, gameState, 1.8f, 1.9f);
-            //_blue.SetPosition(15, 19);
-            //gameState.Blue = _blue;
-            //gameState.Red = new Red(100, 100, gameState, 5.8f, 1.5f);
-            /*var _Mock_Entity = new Mock<Entity>(MockBehavior.Loose) { };
-             var _Mock_Gamestate = new Mock<GameState>(MockBehavior.Loose) { };
-             var _Mock_Blue = new Mock<Blue>(MockBehavior.Loose) { };
-             var _Mock_Red = new Mock<Red>(MockBehavior.Loose) { };*/
-
-
-
-            //gameState.ra
-
-            //  _Mock_Entity.Setup(p => p.Distance(_Mock_Blue.Object)).Returns(10);
-            // gemestateMock.Setup(p => p.Y).Returns(10);
         }
 
         [TestMethod()]
@@ -72,7 +55,8 @@ namespace Pacman.GameLogic.Ghosts.Tests
         {
             _pacman.SetPosition(10, 10);
             gameState.Pacman = _pacman;
-            _blue.Move();
+            for (int i =0; i<100; i++)
+                _blue.Move();
             Assert.IsTrue(true);
         }
 
@@ -126,8 +110,7 @@ namespace Pacman.GameLogic.Ghosts.Tests
         {
             _red.SetPosition(10, 10);
             gameState.Red = _red;
-            _pacman.SetPosition(190, 110); 
-            //_pacman.SetDirection(Direction.Right);
+            _pacman.SetPosition(190, 110);
             gameState.Pacman = _pacman;
             _blue.Move();
             Assert.IsTrue(true);
@@ -139,7 +122,6 @@ namespace Pacman.GameLogic.Ghosts.Tests
             _red.SetPosition(10, 10);
             gameState.Red = _red;
             _pacman.SetPosition(94, 110);
-            //_pacman.SetDirection(Direction.Right);
             gameState.Pacman = _pacman;
             _blue.Move();
             Assert.IsTrue(true);
@@ -162,7 +144,7 @@ namespace Pacman.GameLogic.Ghosts.Tests
         {
             _red.SetPosition(10, 10);
             gameState.Red = _red;
-            _pacman.SetPosition(97, 120);
+            _pacman.SetPosition(97, 140);
             _pacman.SetDirection(Direction.Up);
             gameState.Pacman = _pacman;
             _blue.Move();
@@ -177,7 +159,8 @@ namespace Pacman.GameLogic.Ghosts.Tests
             _pacman.SetPosition(95, 120);
             _pacman.SetDirection(Direction.Up);
             gameState.Pacman = _pacman;
-            _blue.Move();
+            for (int i = 0; i < 100; i++)
+                _blue.Move();
             Assert.IsTrue(true);
         }
 
@@ -208,9 +191,6 @@ namespace Pacman.GameLogic.Ghosts.Tests
         [TestMethod()]                                  // true => IsBelow(GameState.Pacman) // true => IsLeft(GameState.Pacman)
         public void MoveJustFindSomethingFirstElseIfTest() // false //Math.Abs(Node.X - GameState.Pacman.Node.X) != 0
         {
-            var _Mock_Entity = new Mock<Entity>(MockBehavior.Loose) { };
-            //_Mock_Entity.Setup(x => x.Direction).Returns(Direction.Down);
-            _blue.SetRoadPosition(100, 100);
             gameState.Blue = _blue;
             _red.SetPosition(10, 10);
             gameState.Red = _red;
@@ -224,8 +204,11 @@ namespace Pacman.GameLogic.Ghosts.Tests
         [TestMethod()]
         public void CloneTest()
         {
-            _blue.Clone();
-            Assert.IsTrue(true);
+            Blue expected = new Blue(90, 110, gameState, 1.8f, 1.5f);
+            expected.Clone();
+            Blue parent = (Blue)((ICloneable)expected).Clone();
+            Assert.AreEqual(expected.ImgX, _blue.ImgX);
+            Assert.AreEqual(expected.ImgX, parent.ImgX);
         }
     }
 }
